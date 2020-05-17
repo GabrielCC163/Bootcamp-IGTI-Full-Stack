@@ -1,0 +1,1 @@
+![RGB Preview](./img/rgb_preview.png)

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Preview</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>RGB Preview</h1>
+
+        <hr>
+
+        <div class="action">
+            <div class="label">
+                <ul>
+                    <li>
+                        (R) Red :
+                    </li>
+                    <li>
+                        (G) Green :
+                    </li>
+                    <li>
+                        (B) Blue :
+                    </li>
+                </ul>
+            </div>
+            <div class="input-range">
+                <ul>
+                    <li>
+                        <input id="red" type="range" min="0" max="255" value="0" step="1" />
+                    </li>
+                    <li>
+                        <input id="green" type="range" min="0" max="255" value="0" step="1" />
+                    </li>
+                    <li>
+                        <input id="blue" type="range" min="0" max="255" value="0" step="1" />
+                    </li>
+                </ul>
+            </div>
+            <div class=" input-value">
+                <ul>
+                    <li>
+                        <input id="red-value" type="text" disabled value="0" />
+                    </li>
+                    <li>
+                        <input id="green-value" type="text" disabled value="0" />
+                    </li>
+                    <li>
+                        <input id="blue-value" type="text" disabled value="0" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="preview" class="preview"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

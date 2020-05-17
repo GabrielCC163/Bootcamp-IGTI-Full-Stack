@@ -1,0 +1,180 @@
+/* START CSS RESET */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* END CSS RESET */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 40px 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+hr {
+    width: 70%;
+    margin-bottom: 40px;
+    border: 0.8px solid rgb(221, 217, 217);
+}
+
+.container .action {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+li input[type=text] {
+    text-align: center;
+}
+
+.container .preview {
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(221, 217, 217);
+    justify-self: center;
+    margin: auto;
+}
