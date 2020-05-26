@@ -1,0 +1,1 @@
+![RGB Preview](./img/pesquisa-usuarios.png)
