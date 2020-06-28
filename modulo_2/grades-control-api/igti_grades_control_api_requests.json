@@ -1,0 +1,251 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2020-06-28T21:36:51.894Z",
+    "__export_source": "insomnia.desktop.app:v2020.2.2",
+    "resources": [{
+        "_id": "req_a246e47507db4b66ba5a461f7fc6f4bf",
+        "authentication": {},
+        "body": {},
+        "created": 1591752742012,
+        "description": "",
+        "headers": [],
+        "isPrivate": false,
+        "metaSortKey": -1591752742012,
+        "method": "GET",
+        "modified": 1591793738931,
+        "name": "Três maiores notas",
+        "parameters": [{
+            "description": "",
+            "id": "pair_a758d6c0e60843d1b02286738a9a03af",
+            "name": "subject",
+            "value": "03 - React"
+        }, {
+            "description": "",
+            "id": "pair_0bef4be863cb4287a6d597181eb0e8f3",
+            "name": "type",
+            "value": "Trabalho Prático"
+        }],
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/report/topthreescores",
+        "_type": "request"
+    }, {
+        "_id": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "created": 1591659117307,
+        "description": "",
+        "modified": 1591659117307,
+        "name": "Grades Control API",
+        "parentId": null,
+        "scope": null,
+        "_type": "workspace"
+    }, {
+        "_id": "req_7975b324914047048aad7b5149e9f7bb",
+        "authentication": {},
+        "body": {},
+        "created": 1591667809455,
+        "description": "",
+        "headers": [],
+        "isPrivate": false,
+        "metaSortKey": -1591667809455,
+        "method": "GET",
+        "modified": 1591793912867,
+        "name": "Nota total de um aluno em uma disciplina",
+        "parameters": [{
+            "description": "",
+            "disabled": false,
+            "id": "pair_32e857bb74b54be594ed09b81605f4f6",
+            "name": "student",
+            "value": "Roberto Achar"
+        }, {
+            "description": "",
+            "disabled": false,
+            "id": "pair_8376936343ac413a84074d29e65b698f",
+            "name": "subject",
+            "value": "03 - React"
+        }],
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/report/totalscorebystudent",
+        "_type": "request"
+    }, {
+        "_id": "req_97b9848d13704131864a67e134803dac",
+        "authentication": {},
+        "body": {},
+        "created": 1591725977563,
+        "description": "",
+        "headers": [],
+        "isPrivate": false,
+        "metaSortKey": -1591666914344.5,
+        "method": "GET",
+        "modified": 1591794076644,
+        "name": "Média por disciplina e tipo",
+        "parameters": [{
+            "description": "",
+            "disabled": false,
+            "id": "pair_32e857bb74b54be594ed09b81605f4f6",
+            "name": "type",
+            "value": "Trabalho Prático"
+        }, {
+            "description": "",
+            "disabled": false,
+            "id": "pair_8376936343ac413a84074d29e65b698f",
+            "name": "subject",
+            "value": "04 - MongoDB"
+        }],
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/report/avgscore",
+        "_type": "request"
+    }, {
+        "_id": "req_bef6f33000fb4a24b4e0fe556f9a4e92",
+        "authentication": {},
+        "body": {},
+        "created": 1591666019234,
+        "description": "",
+        "headers": [],
+        "isPrivate": false,
+        "metaSortKey": -1591666019234,
+        "method": "GET",
+        "modified": 1591794092500,
+        "name": "Mostra grade específica",
+        "parameters": [],
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/grade/43",
+        "_type": "request"
+    }, {
+        "_id": "req_32552f33f787435cbeb782f44ab4292d",
+        "authentication": {},
+        "body": {},
+        "created": 1591665593956,
+        "description": "",
+        "headers": [],
+        "isPrivate": false,
+        "metaSortKey": -1591665593956,
+        "method": "DELETE",
+        "modified": 1591794043755,
+        "name": "Deletar grade",
+        "parameters": [],
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/grade/32",
+        "_type": "request"
+    }, {
+        "_id": "req_d51118d00fc14ed899394ccdb4da3533",
+        "authentication": {},
+        "body": {
+            "mimeType": "application/json",
+            "text": "{\n\t\"student\": \"Roberto Achar\",\n\t\"subject\": \"03 - React\",\n\t\"type\": \"Fórum\",\n\t\"value\": 10\n}"
+        },
+        "created": 1591659172058,
+        "description": "",
+        "headers": [{
+            "id": "pair_817adfcfece4472f8774c28c65438145",
+            "name": "Content-Type",
+            "value": "application/json"
+        }],
+        "isPrivate": false,
+        "metaSortKey": -1591659172058,
+        "method": "POST",
+        "modified": 1591793884385,
+        "name": "Criar grade",
+        "parameters": [],
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/grade",
+        "_type": "request"
+    }, {
+        "_id": "req_b8d97639c8d94463ac24783550765c7e",
+        "authentication": {},
+        "body": {
+            "mimeType": "application/json",
+            "text": "{\n\t\"id\": 33,\n\t\"value\": 15\n}"
+        },
+        "created": 1591660744794,
+        "description": "",
+        "headers": [{
+            "id": "pair_20f0181b599948d591a32df0bdc77df8",
+            "name": "Content-Type",
+            "value": "application/json"
+        }],
+        "isPrivate": false,
+        "metaSortKey": -1591659172008,
+        "method": "PUT",
+        "modified": 1591793953229,
+        "name": "Atualizar grade",
+        "parameters": [],
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/grade",
+        "_type": "request"
+    }, {
+        "_id": "env_c05154d14262ac59ae1219c9f9cbe96b835d5ec1",
+        "color": null,
+        "created": 1591659117375,
+        "data": {
+            "base_url": "http://localhost:3333"
+        },
+        "dataPropertyOrder": {
+            "&": ["base_url"]
+        },
+        "isPrivate": false,
+        "metaSortKey": 1591659117375,
+        "modified": 1591659148423,
+        "name": "Base Environment",
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "_type": "environment"
+    }, {
+        "_id": "jar_c05154d14262ac59ae1219c9f9cbe96b835d5ec1",
+        "cookies": [],
+        "created": 1591659117377,
+        "modified": 1591659117377,
+        "name": "Default Jar",
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "_type": "cookie_jar"
+    }, {
+        "_id": "spc_adfa33cb96c643d99733565898d8f956",
+        "contentType": "yaml",
+        "contents": "",
+        "created": 1591751444414,
+        "fileName": "Grades Control API",
+        "modified": 1591751444414,
+        "parentId": "wrk_820f2f447ddf4938aa8b1e9aec40add0",
+        "_type": "api_spec"
+    }]
+}

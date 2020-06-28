@@ -1,0 +1,7 @@
+.flexInstallments {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}

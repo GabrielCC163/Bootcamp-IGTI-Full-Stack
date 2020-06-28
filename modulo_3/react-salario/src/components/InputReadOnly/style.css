@@ -1,0 +1,24 @@
+.input-read-only input {
+    font-weight: bold;
+    border-bottom: 1px solid #9e9e9e !important;
+}
+
+.input-read-only {
+    width: 225px;
+}
+
+.color-orange {
+    color: orange !important;
+}
+
+.color-green {
+    color: green !important;
+}
+
+.color-red {
+    color: red !important;
+}
+
+.color-black {
+    color: black !important;
+}
