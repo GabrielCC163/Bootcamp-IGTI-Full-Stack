@@ -1,0 +1,21 @@
+{
+  "name": "my-bank-api",
+  "version": "1.0.0",
+  "description": "Trabalho Prático",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --experimental-modules ./app.js",
+    "start": "node --experimental-modules ./app.js"
+  },
+  "author": "Gabriel Brum",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "type": "module"
+}

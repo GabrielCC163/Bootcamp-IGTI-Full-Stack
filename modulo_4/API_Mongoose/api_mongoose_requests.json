@@ -1,0 +1,151 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2020-07-03T23:57:21.096Z",
+    "__export_source": "insomnia.desktop.app:v2020.2.2",
+    "resources": [{
+        "_id": "req_eb80cd17912e489096fc1a4f561b1eb0",
+        "authentication": {},
+        "body": {},
+        "created": 1593818000919,
+        "description": "",
+        "headers": [],
+        "isPrivate": false,
+        "metaSortKey": -1593818000920,
+        "method": "GET",
+        "modified": 1593819859586,
+        "name": "get students",
+        "parameters": [],
+        "parentId": "wrk_50d21fe2564443a6a7e9d93697605032",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/student",
+        "_type": "request"
+    }, {
+        "_id": "wrk_50d21fe2564443a6a7e9d93697605032",
+        "created": 1593817989634,
+        "description": "",
+        "modified": 1593818978010,
+        "name": "IGTI - Aula 2.4 - API Mongoose",
+        "parentId": null,
+        "scope": null,
+        "_type": "workspace"
+    }, {
+        "_id": "req_ee2dfa6990d344eb9b04ff02b998f475",
+        "authentication": {},
+        "body": {
+            "mimeType": "application/json",
+            "text": "{\n\t\"name\": \"Gabriel Brum\",\n\t\"subject\": \"Fisica\",\n\t\"type\": \"Trabalho Pratico\",\n\t\"value\": 17\n}"
+        },
+        "created": 1593819537231,
+        "description": "",
+        "headers": [{
+            "id": "pair_eecfc439df0045768f542602e24375fa",
+            "name": "Content-Type",
+            "value": "application/json"
+        }],
+        "isPrivate": false,
+        "metaSortKey": -1592785371466,
+        "method": "POST",
+        "modified": 1593819731205,
+        "name": "new student",
+        "parameters": [],
+        "parentId": "wrk_50d21fe2564443a6a7e9d93697605032",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/student",
+        "_type": "request"
+    }, {
+        "_id": "req_e2029b58913b414792ebd65200ff832d",
+        "authentication": {},
+        "body": {
+            "mimeType": "application/json",
+            "text": "{\n\t\"type\": \"Prova Final\"\n}"
+        },
+        "created": 1593820456024,
+        "description": "",
+        "headers": [{
+            "id": "pair_eecfc439df0045768f542602e24375fa",
+            "name": "Content-Type",
+            "value": "application/json"
+        }],
+        "isPrivate": false,
+        "metaSortKey": -1592527214102.5,
+        "method": "PUT",
+        "modified": 1593820490583,
+        "name": "update student",
+        "parameters": [],
+        "parentId": "wrk_50d21fe2564443a6a7e9d93697605032",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/student/5effc543de8ef154a18f6efe",
+        "_type": "request"
+    }, {
+        "_id": "req_abd4c55884da44928720dda3dd92223a",
+        "authentication": {},
+        "body": {},
+        "created": 1593819839121,
+        "description": "",
+        "headers": [],
+        "isPrivate": false,
+        "metaSortKey": -1592269056739,
+        "method": "DELETE",
+        "modified": 1593820180021,
+        "name": "delete student",
+        "parameters": [],
+        "parentId": "wrk_50d21fe2564443a6a7e9d93697605032",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "{{ base_url  }}/student/5effc40a458c305368adb6c6",
+        "_type": "request"
+    }, {
+        "_id": "env_d93f5e55a03e279504ea6000b12f52b053b8947b",
+        "color": null,
+        "created": 1593817989751,
+        "data": {
+            "base_url": "http://localhost:3000"
+        },
+        "dataPropertyOrder": {
+            "&": ["base_url"]
+        },
+        "isPrivate": false,
+        "metaSortKey": 1593817989751,
+        "modified": 1593818042715,
+        "name": "Base Environment",
+        "parentId": "wrk_50d21fe2564443a6a7e9d93697605032",
+        "_type": "environment"
+    }, {
+        "_id": "jar_d93f5e55a03e279504ea6000b12f52b053b8947b",
+        "cookies": [],
+        "created": 1593817989754,
+        "modified": 1593817989754,
+        "name": "Default Jar",
+        "parentId": "wrk_50d21fe2564443a6a7e9d93697605032",
+        "_type": "cookie_jar"
+    }, {
+        "_id": "spc_530d49abef0b4f68819c486921c13eb7",
+        "contentType": "yaml",
+        "contents": "",
+        "created": 1593817989653,
+        "fileName": "IGTI - Aula 4 - API Mongoose",
+        "modified": 1593817989653,
+        "parentId": "wrk_50d21fe2564443a6a7e9d93697605032",
+        "_type": "api_spec"
+    }]
+}
