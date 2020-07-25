@@ -72,7 +72,7 @@ router.put('/deposit', async (req, res) => {
 		return res.status(500).send({ error: 'Obrigatório agência e conta.' });
 	}
 
-	if (!valor || valor < 0 || typeof valor !== 'number') {
+	if (!valor || typeof valor !== 'number' || valor < 0) {
 		return res.status(500).send({ error: 'Informe corretamente o valor a ser depositado.' });
 	}
 
